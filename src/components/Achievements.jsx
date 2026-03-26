@@ -8,7 +8,7 @@ const Achievements = () => {
         <div className="badge">Achievements</div>
         <h3 className="mt-4 font-display text-3xl font-bold">Milestones so far</h3>
         <p className="mt-2 text-slate-600 dark:text-slate-300">
-          A snapshot of the challenges I enjoy and the progress I’m proud of.
+          A snapshot of the challenges I enjoy and the progress I'm proud of.
         </p>
       </div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

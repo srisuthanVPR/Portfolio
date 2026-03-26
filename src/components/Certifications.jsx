@@ -6,7 +6,7 @@ const Certifications = () => {
     <section id="certifications" className="section-padding py-20">
       <div className="mb-10">
         <div className="badge">Certifications</div>
-        <h3 className="mt-4 font-display text-3xl font-bold">Things I’ve earned</h3>
+        <h3 className="mt-4 font-display text-3xl font-bold">Things I loved</h3>
       </div>
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {certifications.map((item, index) => (

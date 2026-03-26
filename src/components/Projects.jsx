@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="mb-10 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div>
           <div className="badge">Projects</div>
-          <h3 className="mt-4 font-display text-3xl font-bold">Work I’m proud of</h3>
+          <h3 className="mt-4 font-display text-3xl font-bold">Work I'm proud of</h3>
           <p className="mt-2 text-slate-600 dark:text-slate-300">
             These projects highlight how I combine AI, IoT, and full-stack development to solve real problems.
           </p>

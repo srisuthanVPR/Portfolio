@@ -25,9 +25,7 @@
     @apply bg-white/70 dark:bg-white/5 backdrop-blur-xl border border-white/30 dark:border-white/10;
   }
 
-  shadow-card {
-    @apply shadow-soft dark:shadow-none;
-  }
+ 
 
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 via-brand-500 to-cyan-400;

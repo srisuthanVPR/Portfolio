@@ -1,4 +1,4 @@
-﻿import { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-scroll'
 import { FiMenu, FiX } from 'react-icons/fi'
 import ThemeToggle from './ThemeToggle'
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <div className="section-padding">
-        <nav className="mt-4 flex items-center justify-between rounded-3xl glass px-4 sm:px-6 py-3 shadow-card">
+        <nav className="mt-4 flex items-center justify-between rounded-3xl glass px-4 sm:px-6 py-3 shadow-soft">
           <div className="font-display text-lg font-bold text-slate-900 dark:text-white">
             Suthan.
           </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
       </div>
       {open && (
         <div className="lg:hidden section-padding">
-          <div className="mt-3 rounded-3xl glass p-6 shadow-card">
+          <div className="mt-3 rounded-3xl glass p-6 shadow-soft">
             <div className="flex flex-col gap-4 text-sm font-semibold text-slate-700 dark:text-slate-200">
               {navLinks.map((link) => (
                 <Link

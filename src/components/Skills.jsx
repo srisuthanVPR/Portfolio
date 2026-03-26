@@ -1,4 +1,4 @@
-﻿import { motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { FiCode, FiGlobe, FiTool, FiDatabase } from 'react-icons/fi'
 import { skills } from '../data'
 

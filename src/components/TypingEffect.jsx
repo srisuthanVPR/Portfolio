@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const TypingEffect = ({ words = [], speed = 90, pause = 1400 }) => {
   const [index, setIndex] = useState(0)

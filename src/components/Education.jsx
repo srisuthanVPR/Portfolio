@@ -1,4 +1,4 @@
-﻿import { motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { education } from '../data'
 
 const Education = () => {

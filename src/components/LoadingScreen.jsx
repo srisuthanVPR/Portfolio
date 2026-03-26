@@ -1,4 +1,4 @@
-﻿import { motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const LoadingScreen = () => {
   return (
@@ -10,7 +10,7 @@ const LoadingScreen = () => {
         className="text-center"
       >
         <div className="mb-4 h-12 w-12 animate-spin rounded-full border-4 border-brand-400 border-t-transparent mx-auto" />
-        <p className="font-display text-lg">Warming up the portfolio…</p>
+        <p className="font-display text-lg">Warming up the portfolio�</p>
       </motion.div>
     </div>
   )

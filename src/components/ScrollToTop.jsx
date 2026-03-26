@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FiArrowUp } from 'react-icons/fi'
 
 const ScrollToTop = () => {

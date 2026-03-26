@@ -1,4 +1,4 @@
-ï»¿import { useState } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FiMail, FiPhone } from 'react-icons/fi'
 
@@ -56,9 +56,9 @@ const Contact = () => {
           className="card"
         >
           <div className="badge">Contact</div>
-          <h3 className="mt-4 font-display text-3xl font-bold">Letâ€™s build something meaningful.</h3>
+          <h3 className="mt-4 font-display text-3xl font-bold">Let’s build something meaningful.</h3>
           <p className="mt-4 text-slate-600 dark:text-slate-300">
-            If you have a project, internship, or idea that needs an AI + full-stack push, Iâ€™d love to hear about it.
+            If you have a project, internship, or idea that needs an AI + full-stack push, I’d love to hear about it.
           </p>
           <div className="mt-6 flex flex-col gap-3 text-slate-600 dark:text-slate-300">
             <div className="flex items-center gap-3">
